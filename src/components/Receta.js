@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import { ModalContext } from '../context/ModalContext';
 
 const Receta = ({receta}) => {
     return (
