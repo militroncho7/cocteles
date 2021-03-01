@@ -15,7 +15,6 @@ function App() {
         <ModalProvider>
           <Header />
           
-
           <div className="container mt-5">
             <div className="row">
               <Formulario />
@@ -25,7 +24,7 @@ function App() {
           </div>
 
           <Footer />
-          
+
         </ModalProvider>        
       </RecetasProvider>
     </CategoriasProvider>
